@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://nvacpga06aof"]
+
+[ext_resource type="Texture2D" uid="uid://5x3r515xnio3" path="res://assets/icon.svg" id="1_jtvxh"]
+[ext_resource type="Script" path="res://src/Circles.gd" id="2_c6lvh"]
+
+[node name="Circles" type="Sprite2D"]
+position = Vector2(564, 322)
+texture = ExtResource("1_jtvxh")
+script = ExtResource("2_c6lvh")
